@@ -6,6 +6,10 @@ import (
 	"github.com/jinzhu/gorm"
 	"gopkg.in/ini.v1"
 	"log"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
 )
 
 var db *gorm.DB
@@ -16,9 +20,14 @@ type BaseRepository struct {
 
 func init() {
 
+	file, _ := exec.LookPath(os.Args[0])
+	path, _ := filepath.Abs(file)
+	index := strings.LastIndex(path, string(os.PathSeparator))
+	path = path[:index]
+
 	//读取配置
 	var err error
-	Cfg, err = ini.Load("config.ini")
+	Cfg, err = ini.Load(path + "/config.ini")
 	if err != nil {
 		log.Fatalln("配置文件读取失败", err)
 	}
