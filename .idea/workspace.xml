@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3bff3a3e-4ad4-4c9a-95ee-05a121a72eb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jira-reminder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/IssueStatus.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/IssueType.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/JiraIssue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Project.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/BaseRepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/IssueStatusRepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/IssueTypeRepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/JiraIssueRepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/ProjectRepository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/JiraService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/RequestParams.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/WechatPusher.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/buffer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/collations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/conncheck.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/conncheck_dummy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/connector.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/const.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/driver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/dsn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/fields.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/infile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime_go113.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/nulltime_legacy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/packets.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/result.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/rows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/statement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-sql-driver/mysql/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/License" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/association.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_create.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_query.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_query_preload.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_row_query.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_save.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/callback_update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_postgres.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/dialect_sqlite3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/field.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/join_table_handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/model_struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/naming.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/scope.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/search.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/test_all.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/wercker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/inflections.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/jinzhu/inflection/wercker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/data_source.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/deprecated.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/helper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/ini.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/key.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/parser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/section.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/ini.v1/struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1Z4G8FUrhktKEr5P97BO11RI5BY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/repository" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/repository" />
+      <recent name="$PROJECT_DIR$/model" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="jira-reminder" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/service/JiraService.go" />
+      <package value="jira-reminder" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io</proxy>
+  </component>
+</project>
